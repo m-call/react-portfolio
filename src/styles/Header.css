@@ -1,3 +1,16 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Root Selector for Variables */
+:root {
+  --grey: rgba(49, 52, 61, 1);
+  --blue: mediumturquoise;
+  --darkBlue: steelblue;
+}
+
 header {
   padding: 15px 6% 15px 0;
   background-color: var(--grey);
