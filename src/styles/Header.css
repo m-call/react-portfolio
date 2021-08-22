@@ -1,0 +1,19 @@
+header {
+  padding: 15px 6% 15px 0;
+  background-color: var(--grey);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+}
+
+header h1 {
+  font-size: 3vw;
+  line-height: 1;
+  color: var(--grey);
+  background-color: var(--blue);
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+}
