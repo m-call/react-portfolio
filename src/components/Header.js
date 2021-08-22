@@ -3,8 +3,9 @@ import React from 'react';
 export default function Header() {
 
     return (
-      <div className="container">
+      <header>
         <h1>Michael Callahan</h1>
-      </div>
+        <Nav />
+      </header>
     );
 };
