@@ -11,6 +11,7 @@
   --darkBlue: steelblue;
 }
 
+/* Element Selectors */
 header {
   padding: 15px 6% 15px 0;
   background-color: var(--grey);

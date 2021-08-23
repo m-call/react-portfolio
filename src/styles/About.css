@@ -1,3 +1,18 @@
+/* Universal Selector */
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Root Selector for Variables */
+:root {
+  --grey: rgba(49, 52, 61, 1);
+  --blue: mediumturquoise;
+  --darkBlue: steelblue;
+}
+
+/* Class Selectors */
 .section {
   margin: 25px 0;
   padding: 10px 0;

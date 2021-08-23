@@ -1,3 +1,4 @@
+/* Universal Selector */
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -11,6 +12,7 @@
   --darkBlue: steelblue;
 }
 
+/* Element Selectors */
 nav {
   display: flex;
   flex-direction: row;

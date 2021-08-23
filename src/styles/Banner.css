@@ -12,15 +12,6 @@
   --darkBlue: steelblue;
 }
 
-/* Element Selectors */
-body {
-  background-color: azure;
-  margin: 0;
-  padding: 0;
-  color: var(--darkBlue);
-  line-height: 1.5;
-}
-
 /* Class Selectors */
 .banner {
   background-image: url("../assets/images/linkedin-event-design-template-9ea8946b86bda7ca65cdbf18e7ab21b1_screen.jpg");
