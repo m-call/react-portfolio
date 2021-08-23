@@ -1,0 +1,58 @@
+/* Universal Selector */
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Root Selector for Variables */
+:root {
+  --grey: rgba(49, 52, 61, 1);
+  --blue: mediumturquoise;
+  --darkBlue: steelblue;
+}
+
+/* Element Selectors */
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  color: var(--darkBlue);
+  line-height: 1.5;
+}
+
+/* Class Selectors */
+.banner {
+  background-image: url("../assets/images/linkedin-event-design-template-9ea8946b86bda7ca65cdbf18e7ab21b1_screen.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 26vh;
+  padding: 1% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+
+.banner div {
+  flex: 0 0 80%;
+}
+
+.banner h2 {
+  font-size: 36px;
+  color: var(--grey);
+  background-color: var(--blue);
+  text-align: center;
+  display: inline;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+
+.my-pic {
+  background-image: url("../assets/images/1622476358061.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  min-width: 15%;
+  margin-left: 80px;
+}
